@@ -1,0 +1,9 @@
+randomAssign = False
+#roomsM = range(103, 118) + range(201, 242) + range(301, 342) + range(401, 419)
+#roomsF = range(201, 208) + range(211, 212) + range(215,216) + range(301, 308) + range(311, 312) + range(315, 316)
+roomsM = [103,108,109,110,113,114,118,241,242,309,310,319,323,329,330,342]
+roomsF = [206,208,211,212,216,308,312]
+# randomAssign은 티켓팅 후 랜덤 배정 진행 여부를 저장하는 변수이다. 1차 티켓팅일 경우 False, 2차 티켓팅 혹은 한 차례로 구성된 티켓팅의 경우 True.
+# roomsM과 roomsF에는 각각 배정 가능한 남학생 방과 여학생 방을 각각 integer로 구성된 list로 입력한다. 즉, range 함수의 사용이 가능하다.
+# randomAssign이 False일 경우, (모든 학생들이 제대로 티켓팅에 임했다는 가정 아래) 구지 학년과 성별을 구분하여 이 프로그램을 실행시킬 필요는 없다. 다만, randomAssign이 True일 경우에는 티켓팅 이후 랜덤 배정이 이루어지므로, 학년과 성별을 구분하여 이 프로그램을 실행시켜야 한다. (즉, roomsM이나 roomsF 중 하나는 empty list []가 된다.)
+# 이 파일은 python 실행 파일에서 exec 처리되는 파일이므로, 모든 표기에 있어 python 문법을 지켜야 한다! python 처리 시 error가 발생할 수 있는 부분은 반드시 주석 처리할 것!
